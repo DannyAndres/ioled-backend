@@ -14,3 +14,17 @@ npm run start
 ```
 gcloud functions deploy App --trigger-http --runtime nodejs8
 ```
+
+## Endpoints
+#### login
+```
+http://us-central1-ioled-262100.cloudfunctions.net/App/auth/google
+```
+#### get user
+```
+http://us-central1-ioled-262100.cloudfunctions.net/App/auth
+```
+#### logout
+```
+http://us-central1-ioled-262100.cloudfunctions.net/App/auth/logout
+```
